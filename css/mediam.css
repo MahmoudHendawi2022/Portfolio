@@ -1,0 +1,80 @@
+
+
+header .container .nav ul {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width:200px;
+    background-color: rgb(30, 28, 28);
+    text-align: center;
+    padding-top: 50px;
+    transition: right 0.5s ;
+    -webkit-transition: right 0.5s ;
+    -moz-transition: right 0.5s ;
+    -ms-transition: right 0.5s ;
+    -o-transition: right 0.5s ;
+    z-index: 2;
+}
+
+header .container .nav ul a {
+   display: block;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    
+
+}
+
+.header-info p  {
+    margin-top: 200px;
+}
+
+.fa-times {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+header .container .nav ul li {
+    list-style: none;
+    margin-left: 0;
+
+}
+
+
+
+header a:hover {
+background-color: var(--mainColor);}
+  
+header .container .nav ul a::after {
+    display: none;
+    /* content: "";
+    width: 0;
+    background-color: var(--mainColor);
+    height: 1px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease; */
+}
+
+#bar {
+    display: block;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+cursor: pointer;}
+.header .header-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
